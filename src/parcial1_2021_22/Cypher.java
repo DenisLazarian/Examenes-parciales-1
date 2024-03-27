@@ -68,12 +68,15 @@ public class Cypher {
 
     @Override
     public String toString() {
-        String s = "";
+        String s ="-------------\n";
+        s = s.concat("|from --- to|\n");
+        s = s.concat("|-----------|\n");
 
         for (int i = 0; i < it; i++) {
             s = s.concat(set[i].toString());
         }
-        s = s.concat("\nit = "+it);
+        s = s.concat("-------------");
+        s = s.concat("\nit = "+it+"\n");
         return s;
     }
 }

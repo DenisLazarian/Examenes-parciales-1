@@ -25,8 +25,8 @@ public class CharPair {
 
     @Override
     public String toString() {
-        return "from:  " + from + " ------- "+
-                " to:  " + to +
+        return  "|" + from + " ------- "+
+                 to + "|" +
                 '\n';
     }
 }
