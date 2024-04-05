@@ -11,7 +11,7 @@ public class CharPair {
     }
 
     public int encode(char c){
-        if(from == c) return (int) to;
+        if(from == c) return to;
         return -1;
     }
 

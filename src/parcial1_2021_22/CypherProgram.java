@@ -22,7 +22,7 @@ public class CypherProgram extends CommandLineProgram {
 
         StringTokenizer st = new StringTokenizer(claves, " ");
 
-        cypher.addPair(' ', ' ');
+//        cypher.addPair(' ', ' ');
         while(st.hasMoreTokens()){
             String clave = st.nextToken();
             if(!cypher.addPair(clave.charAt(0), clave.charAt(2))) numErrors++;

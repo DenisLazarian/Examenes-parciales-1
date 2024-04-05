@@ -1,6 +1,4 @@
-package parcial1_2020_21;
-
-import java.util.Arrays;
+package parcial1_2020_21_Extra;
 
 public class DurationAccumulator {
 
